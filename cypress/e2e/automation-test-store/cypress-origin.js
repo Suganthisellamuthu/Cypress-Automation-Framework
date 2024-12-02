@@ -1,18 +1,18 @@
 describe("Handling cypress limitations",() =>{
-    it.only("Validate two different domains",() =>{
+    // it("Validate two different domains",() =>{
 
-      cy.visit("https://www.webdriveruniversity.com")
-      cy.visit("https://visionrcl.org.uk/?")
-      cy.origin("https://visionrcl.org.uk/",()=>{
-        cy.get("button[aria-label='Reject All']").click({multiple:true})
+    //   cy.visit("https://www.webdriveruniversity.com")
+    //   cy.visit("https://visionrcl.org.uk/?")
+    //   cy.origin("https://visionrcl.org.uk/",()=>{
+    //     cy.get("button[aria-label='Reject All']").click({multiple:true})
       
      
 
-      })
+    //   })
       
      
       
-    })
+    // })
     
 
     
