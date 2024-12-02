@@ -18,7 +18,7 @@ module.exports = defineConfig({
     video:false,
     retries:{
       runMode:0,
-      openMode:2,
+      openMode:0,
 
     },
     reporter: 'cypress-multi-reporters',
