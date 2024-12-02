@@ -3,3 +3,5 @@ screenshots
 results
 mochawesome-report
 package-lock.json
+reporter-config.json
+mochawesome.json

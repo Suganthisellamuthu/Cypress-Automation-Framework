@@ -21,10 +21,7 @@ module.exports = defineConfig({
       openMode:0,
 
     },
-    reporter: 'cypress-multi-reporters',
-    reporterOptions: {
-      configFile: 'reporter-config.json',
-    },
+   
     baseUrl: "https://www.webdriveruniversity.com",
     env: {
       first_name:"jas",
